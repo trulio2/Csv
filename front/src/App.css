@@ -1,0 +1,29 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.csv-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  flex: 1 1 calc(33.333% - 2rem);
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+.csv-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
